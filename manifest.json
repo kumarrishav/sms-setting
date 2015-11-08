@@ -1,0 +1,18 @@
+{
+  "manifest_version": 1,
+  "name": "SMS Setting Access",
+  "description": "Access Messages Settings from conversation thread. Message App > Thread > Conversation > option menu",
+  "version": "1.0",
+  "author": "Kumar Rishav",
+  "package_path": "package.zip",
+  "content_scripts": [{
+    "matches": [
+      "app://sms.gaiamobile.org/index.html"
+    ],
+    "css": [],
+    "js": ["index.js"]
+  }],
+  "icons": {
+    "128": "icons/messages_settings.png"
+  }
+}
